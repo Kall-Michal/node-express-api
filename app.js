@@ -21,8 +21,5 @@ app.put("/api/books/:bookId", libController.update);
 // DELETE - uses the logic passed in delete found inside the module library-routes.
 app.delete("/api/books/:bookId", libController.delete);
 
-// GET - uses - query
-app.get("/api/books/search?", libController.query);
-
 // Listen to app
 app.listen(port, () => console.log(`Listening to port ${port}`));
