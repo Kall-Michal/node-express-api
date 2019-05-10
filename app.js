@@ -1,5 +1,5 @@
 const express = require("express");
-const libController = require("./controllers/library-routes");
+const libController = require("./controllers/library-controllers");
 const app = express();
 const port = 3000;
 
